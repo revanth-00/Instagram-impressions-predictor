@@ -7,7 +7,7 @@ import joblib
 # -----------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load("tuned_xgboost_instagram_model.pkl")
+    return joblib.load("./tuned_xgboost_instagram_model (1).pkl")
 
 model = load_model()
 
@@ -114,5 +114,6 @@ elif mode == "Batch Prediction (CSV Upload)":
 
 st.markdown("---")
 st.caption("Developed with ❤️ using Streamlit and XGBoost")
+
 
 
