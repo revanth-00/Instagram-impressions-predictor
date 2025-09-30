@@ -1,0 +1,6 @@
+Model,RMSE,R2
+Linear Regression,2322.29,0.8906
+Random Forest,2601.25,0.8628
+SVR,7964.05,-0.2863
+Default XGBoost,2279.17,0.8946
+Tuned XGBoost,1867.97,0.9292
